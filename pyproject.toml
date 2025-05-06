@@ -1,0 +1,14 @@
+[project]
+name = "Triratna_bot_beta"
+version = "0.1.0"
+description = "Triratna_bot_beta"
+readme = "README.md"
+requires-python = ">=3.9, <4.0"
+
+[tool.nonebot]
+adapters = [
+    { name = "OneBot V11", module_name = "nonebot.adapters.onebot.v11" }
+]
+plugins = ["nonebot_plugin_maimaidx", "nonebot_plugin_status",   "nonebot_plugin_arkgacha",   "nonebot_plugin_alconna",   "nonebot_plugin_pjsk_helper",   "nonebot_plugin_p5generator",   "nonebot_plugin_batitle",   "nonebot_plugin_make_choice"]
+plugin_dirs = []
+builtin_plugins = []
